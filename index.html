@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/adaptive.css" />
     <link rel="icon" href="./assets/icons/favicon.ico" />
   </head>
   <body>
     <main>
       <section class="hero">
-        <img id="ava" src="./assets/images/ava.jpg" alt="" />
+        <video class="hover-video" muted loop id="myVideo">
+          <source src="./assets/images/Comp 1_*.mp4" type="video/mp4" />
+        </video>
+        <!-- <img id="ava" src="./assets/images/ava.jpg" alt="" /> -->
         <section class="hero-info">
           <p class="title-b">Илия Пузырёв — дизайнер цифровых продуктов</p>
           <div class="divider-1"></div>
@@ -29,16 +33,23 @@
         <section class="work">
           <img src="./assets/images/project-cover.jpg" alt="" />
           <div class="title">
-            <a href="./work-page.html">Untitled-0</a>
+            <a href="./untitled-0.html">Untitled-0</a>
             <p>2026</p>
           </div>
         </section>
-        <div class="divider-1"></div>
+        <div class="divider-3"></div>
         <section class="work">
           <img src="./assets/images/project-cover.jpg" alt="" />
           <div class="title">
-            <a href="./work-page.html">Untitled-1</a>
+            <a href="./untitled-1.html">Untitled-1</a>
             <p>2025</p>
+          </div>
+
+          <div class="divider-3"></div>
+          <img src="./assets/images/project-cover.jpg" alt="" />
+          <div class="title">
+            <a href="./untitled-2.html">Untitled-2</a>
+            <p>2020</p>
           </div>
         </section>
 
@@ -52,5 +63,6 @@
         <p>© 2026</p>
       </footer>
     </main>
+    <script src="./js/script.js"></script>
   </body>
 </html>

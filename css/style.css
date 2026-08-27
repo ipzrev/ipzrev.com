@@ -108,9 +108,15 @@ footer {
 }
 
 video {
-  width: 670px;
-  display: block;
-  object-fit: cover;
+  border-radius: 999px;
+  width: 150px;
+  height: 150px;
+}
+
+.hover-video {
+  border-radius: 999px;
+  width: 150px;
+  height: 150px;
 }
 
 /* work-page */
@@ -132,7 +138,7 @@ video {
 }
 
 .pp {
-  color: #989898;
+  color: #f70404;
   font-size: 16px;
 }
 
@@ -145,4 +151,18 @@ video {
 .title-b {
   font-size: 20px;
   font-weight: 600;
+}
+
+.divider-3 {
+  margin-top: 22px;
+  height: 1px;
+  background-color: #2c2c2c;
+}
+
+::selection {
+  background-color: #ffffff;
+}
+
+#wip {
+  color: #444444;
 }

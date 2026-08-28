@@ -6,4 +6,7 @@
   body {
     margin: 0 16px;
   }
+  a {
+    text-decoration: underline;
+  }
 }

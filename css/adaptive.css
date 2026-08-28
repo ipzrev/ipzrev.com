@@ -1,5 +1,9 @@
-@media (max-width: 768px) {
+@media (max-width: 390px) {
+  .cover {
+    width: 100%;
+    height: auto;
+  }
   body {
-    background-color: red;
+    margin: 0 16px;
   }
 }

@@ -13,7 +13,7 @@ body {
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #2c2c2c;
+  background-color: #151515;
   line-height: 160%;
   font-family: "Inter";
   font-weight: 300;
@@ -157,10 +157,6 @@ video {
   background-color: #ffffff;
 }
 
-#wip {
-  color: #444444;
-}
-
 .cover {
   height: 360px;
   width: 670px;
@@ -173,4 +169,8 @@ video {
   margin-top: 128px;
   height: 1px;
   background-color: #2c2c2c;
+}
+
+title {
+  line-height: 160%;
 }

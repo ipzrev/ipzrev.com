@@ -22,6 +22,7 @@ body {
   border-radius: 999px;
   width: 150px;
   height: 150px;
+  object-fit: cover;
 }
 
 p {
@@ -31,12 +32,12 @@ p {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #8a8a8a;
   font-size: 20px;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #ffffff;
 }
 
 .hero-info {

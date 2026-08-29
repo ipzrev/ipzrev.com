@@ -177,3 +177,15 @@ video {
 .small-screen {
   display: none;
 }
+
+.project-description {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.project-description-point {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

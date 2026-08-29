@@ -189,3 +189,8 @@ video {
   flex-direction: column;
   gap: 8px;
 }
+
+.a-small {
+  color: #8a8a8a;
+  font-size: 16px;
+}

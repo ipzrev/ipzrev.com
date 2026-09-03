@@ -191,3 +191,30 @@ video {
   color: #8a8a8a;
   font-size: 16px;
 }
+
+.blink-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #30a2ff;
+  border-radius: 50%;
+  animation: blink 1.2s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+}
+
+.wip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}

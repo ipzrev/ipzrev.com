@@ -193,10 +193,11 @@ video {
 }
 
 .blink-dot {
+  margin-top: 2px;
   display: inline-block;
   width: 8px;
   height: 8px;
-  background: #30a2ff;
+  background: #8a8a8a;
   border-radius: 50%;
   animation: blink 1.2s ease-in-out infinite;
 }
